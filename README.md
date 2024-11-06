@@ -4,7 +4,7 @@ This is a simple weather forecasting project built with **HTML5**, **CSS3**, and
 
 The project was initially developed with PHP but was rewritten using JavaScript for learning purposes and simplification. **WAMP Server** was used during development because the original idea was to implement it with PHP before switching to JavaScript.
 
-![Exemplo de GIF](assets/demo.gif)
+![Exemplo de GIF](public/assets/demo.gif)
 
 ## Features
 
