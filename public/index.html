@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <script src="js/scripts.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body>
+    
+    <header class="grid-container">
+        <h1>Weather</h1>
+    </header>
+
+
+    <main>
+        
+        <article>
+
+            <h1>Search</h1>
+            <!-- <label onclick="getLocation()">Use my location</label>
+            <br>
+            or
+            <br> -->
+            <label for="zip">Enter a postal code (zip)</label>
+            <input type="text" placeholder="12345000" id="zip" name="zip"/>
+            <br>
+            or
+            <br>
+            <label for="city">Enter a city name</label>
+            <input type="text" placeholder="New York" id="city" name="city"/>
+            <br>
+            <!-- <button onclick="blablabla()">Apply</button> -->
+            <input type="submit" onclick="send()" name="send" id="send" value="search"> 
+            <div id="result" name="result"></div>
+
+            <!-- <p id="location"></p> -->
+
+        </article>
+
+
+        <article>
+            <h1>Historic</h1>
+
+            <table align="center" id="weatherTable" border="1">
+                <thead>
+                    <tr>
+                        <th>Location</th>
+                        <th>Temperature</th>
+                        <th>Humidity</th>
+                        <th>Feels like</th>
+                        <th>Cloud cover</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- As linhas serão adicionadas dinamicamente aqui -->
+                </tbody>
+            </table>
+
+        </article>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Weather</p>
+    </footer>
+    
+    <!-- <script src="js/scripts.js" defer></script> -->
+
+</body>
+</html>

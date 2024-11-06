@@ -1,0 +1,17 @@
+body {
+    
+    /* background gradient*/
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 48%, rgba(90,9,121,1) 97%);
+
+    color: white; */
+
+    font-family: "Sofia";
+    /* font-family: "Lucida Console", "Monaco", "Courier New"; */
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+}
+
