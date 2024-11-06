@@ -4,6 +4,8 @@ This is a simple weather forecasting project built with **HTML5**, **CSS3**, and
 
 The project was initially developed with PHP but was rewritten using JavaScript for learning purposes and simplification. **WAMP Server** was used during development because the original idea was to implement it with PHP before switching to JavaScript.
 
+![Exemplo de GIF](assets/demo.gif)
+
 ## Features
 
 - **Search by city**: The user can enter the name of a city to get weather and climate information.
